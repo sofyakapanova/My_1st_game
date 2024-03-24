@@ -51,5 +51,4 @@ class Monster:
             else:
                 self.coord[1] += 1
         canva.delete('enemy')
-        canva.create_rectangle(20 * self.coord[0] - 20, 20 * self.coord[1] - 20, 20 * self.coord[0], 20 * self.coord[1],
-                               fill='red', tags='enemy')
+        canva.create_rectangle(20 * self.coord[0] - 20, 20 * self.coord[1] - 20, 20 * self.coord[0], 20 * self.coord[1], fill='red', tags='enemy')
